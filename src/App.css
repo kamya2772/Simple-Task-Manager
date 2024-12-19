@@ -1,0 +1,15 @@
+.add-btn {
+  text-align: right;
+}
+
+.container {
+  overflow: auto;
+}
+
+.mb-3 {
+  width: 100%;
+}
+
+.container-form {
+  justify-items: center;
+}

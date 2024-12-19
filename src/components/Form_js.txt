@@ -1,0 +1,32 @@
+const navigate = useNavigate();
+
+The useNavigate hook allows programmatic navigation between routes in a React application.
+After form submission, redirect to another page.
+
+const location = useLocation();
+https://medium.com/@alexanie_/https-ocxigin-hashnode-dev-uselocation-hook-in-react-router-758a0a711308
+
+
+The `useLocation` hook in React Router is used to return the current location of a React component. The `useLocation` returns the current location as an object and comes with props such as
+
+pathname
+state
+search
+key
+hash
+These props can be used with useEffect hook to perform side effects such as clicks onScroll or return state parsed to a Link component.
+
+Location Object Properties
+pathname: The current route path (e.g., /employees/123).
+search: The query string in the URL (e.g., ?name=John).
+state: Data passed via navigation (e.g., employee details in the code).
+
+Common Use Cases
+1.Access route-specific data:
+Read data passed from one route to another using state.
+2.Dynamic behavior based on the current route:
+Determine what to display based on the pathname.
+3.Access query parameters:
+Parse search to retrieve query strings.
+
+
